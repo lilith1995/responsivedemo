@@ -1,0 +1,105 @@
+.app {
+  display: flex;
+  margin: auto !important;
+
+  *,
+  :after,
+  :before {
+    --tw-ring-inset: var(--tw-empty);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(2, 96, 176, 0.5);
+    --tw-ring-offset-shadow: 0 0 transparent;
+    --tw-ring-shadow: 0 0 transparent;
+    box-sizing: border-box;
+    border: 0 solid;
+  }
+}
+
+.showcase {
+  flex: content;
+  flex-direction: column;
+  margin: 0 auto;
+
+  @media only screen and (min-width: 768px) {
+    background: url(https://www.freedomdebtrelief.com/next-assets/alejandra_hero_1599x531.jpg)
+      no-repeat 35%;
+    height: 35rem;
+  }
+
+  @media (min-width: 768px) {
+    .mainphoto {
+      display: none !important;
+      justify-content: flex-end !important;
+      flex-direction: row !important;
+    }
+  }
+  @media (min-width: 375px) {
+    .mainphoto {
+      width: 100%;
+      height: 9rem;
+    }
+  }
+}
+
+.slider {
+  display: flex;
+  float: right;
+  font-weight: 300 !important;
+  flex-direction: column;
+  height: auto;
+  color: rgb(33, 55, 104) !important;
+
+  h2.maintext {
+    display: block;
+    font-size: 1.5em;
+    font-weight: 100;
+    margin-bottom: 0;
+  }
+
+  h2.secondtext {
+    margin-top: 0;
+    margin-bottom: 2;
+    font-weight: 400;
+  }
+
+  @media (min-width: 375px) {
+    .amountpic {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    h2.maintext {
+      font-size: 1.2em;
+      text-align: center;
+    }
+    h2.secondtext {
+      font-size: 0.8em;
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .amountpic {
+      width: 100%;
+      height: 270px;
+    }
+    h2.maintext {
+      font-size: 1.5em;
+      text-align: left;
+    }
+    h2.secondtext {
+      font-size: 1.5em;
+      text-align: left;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .amountpic {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
