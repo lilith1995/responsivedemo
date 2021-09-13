@@ -1,14 +1,13 @@
 .footer {
   display: flex;
   flex-direction: row;
-  position: relative;
 
   .components {
     display: flex;
     flex-direction: row;
     width: 100%;
     padding: 0.5rem;
-    justify-content: flex-start;
+    justify-content: center;
     background-color: rgb(240, 249, 255);
     opacity: 0.8;
 
@@ -21,11 +20,8 @@
 
     p {
       display: flex;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-      font-size: 1rem;
+      margin-inline-end: 100px;
+      font-size: 16px;
     }
 
     .column {
@@ -39,32 +35,6 @@
         color: rgb(0, 45, 135);
         margin-left: 0.25rem;
       }
-    }
-  }
-  @media only screen and (min-width: 375px) and (max-width: 700px) {
-    .components {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      margin-top: 20rem;
-      width: 25rem;
-      text-align: start;
-    }
-  }
-
-  @media only screen and (min-width: 768px) {
-    .components {
-      margin-top: -8rem;
-      display: flex;
-      flex-direction: row;
-    }
-  }
-
-  @media only screen and (min-width: 1024px) {
-    .components {
-      margin-top: -7rem;
-      display: flex;
-      flex-direction: row;
     }
   }
 }

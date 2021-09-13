@@ -1,0 +1,21 @@
+.mainsection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  color: rgb(0, 0, 0);
+
+  .maintext {
+    font-size: 15px;
+    text-align: left;
+    margin-right: 10%;
+
+    h2.firsttext {
+      font-weight: 400;
+    }
+    h2.secondtext {
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+  }
+}
