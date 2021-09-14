@@ -7,9 +7,9 @@ import './App.scss';
 function App() {
   return (
     <div className="flex_container">
-      <MainSection />
-      <TextSection/>
-      <Footer/>
+      <div className="sectionone"><MainSection /></div>
+      <div className="sectiontwo"><TextSection/></div>
+      <div className="sectionthird"><Footer/></div>
       </div>
   );
 }
