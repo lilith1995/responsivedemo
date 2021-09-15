@@ -1,6 +1,5 @@
 .flex_container {
   display: flex;
-  height: fit-content;
   height: 100vh;
 
   background: url(https://www.franglaw.com/wp-content/uploads/2016/08/biznes-rukopozhatie-sdelka.jpg)
@@ -25,11 +24,12 @@
 }
 
 @media all and (min-width: 240px) and (max-width: 590px) {
-  body {
-    width: fit-content;
-  }
   .flex_container {
+    width: fit-content;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
     background-position: top;
     background-size: contain;
   }

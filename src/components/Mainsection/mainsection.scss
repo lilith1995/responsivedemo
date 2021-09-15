@@ -1,15 +1,17 @@
 .mainsection {
   color: rgb(0, 0, 0);
-  width: 100%;
+  font-size: small;
 
   .maintext {
-    font-size: 15px;
-
     h2.firsttext {
-      font-weight: 400;
+      font-weight: 100;
     }
     h2.secondtext {
       font-weight: 500;
     }
+  }
+  img {
+    max-width: 90%;
+    height: auto;
   }
 }
