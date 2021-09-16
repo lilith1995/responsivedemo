@@ -2,21 +2,25 @@
   display: flex;
   gap: 50px;
 
-  background: url(https://www.franglaw.com/wp-content/uploads/2016/08/biznes-rukopozhatie-sdelka.jpg)
-    no-repeat 45%;
+  background: url(".//assets/woman.jpg") no-repeat 45%;
   background-size: cover;
-  background-position: top;
 }
 
 @media all and (min-width: 768px) {
   .flex_container {
+    width: auto;
     flex-direction: column;
+    background-size: cover;
+    background-position: 40%;
   }
 }
 
 @media all and (min-width: 600px) {
   .flex_container {
     flex-direction: column;
+    flex-direction: column;
+    background-size: cover;
+    background-position: 35%;
   }
   .sectionone {
     align-self: flex-end;
@@ -27,20 +31,19 @@
   .flex_container {
     width: fit-content;
     flex-direction: column;
-    align-items: flex-end;
 
-    margin: 5px;
-    font-size: 2vw;
-    text-align: center;
+    font-size: 3vw;
 
     background-position: top;
     background-size: contain;
   }
   .sectionone {
     order: 2;
+    text-align: center;
   }
-  .setiontwo {
+  .sectiontwo {
     order: 1;
+    align-self: flex-end;
   }
   .sectionthird {
     order: 3;
